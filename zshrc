@@ -50,7 +50,7 @@ bindkey "^E" end-of-line
 bindkey "^R" history-incremental-search-backward
 bindkey "^P" history-search-backward
 
-# use vim as the visual editor
+# use nano as the visual editor
 export VISUAL=nano
 export EDITOR=$VISUAL
 
@@ -61,3 +61,6 @@ export EDITOR=$VISUAL
 if [ -f "$ZSH/themes/$ZSH_THEME.zsh-theme" ]; then
   source "$ZSH/themes/$ZSH_THEME.zsh-theme"
 fi
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
