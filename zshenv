@@ -27,7 +27,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
 # android bin
-export ANDROID_BIN="$HOME/.android/sdk/tools/android"
-export PATH="$HOME/.android/sdk/tools:$PATH"
-export PATH="$HOME/.android/sdk/platform-tools:$PATH"
-
+export ANDROID_BIN="$HOME/Library/Android/sdk/tools/android"
+export PATH="$HOME/Library/Android/sdk/tools:$PATH"
+export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
