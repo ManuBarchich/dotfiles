@@ -20,7 +20,7 @@
   whitespace = space-before-tab,trailing-space,cr-at-eol
   autocrlf = input
   excludesfile = ~/.gitignore
-  editor = vim
+	editor = nano
 
 [apply]
   whitespace = fix
