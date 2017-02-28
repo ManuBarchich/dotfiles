@@ -63,3 +63,5 @@ if [ -f "$ZSH/themes/$ZSH_THEME.zsh-theme" ]; then
 fi
 
 eval "$(rbenv init -)"
+
+eval "$(direnv hook zsh)"
