@@ -33,3 +33,5 @@
 
 [rebase]
   autosquash = true
+[status]
+	submoduleSummary = true
