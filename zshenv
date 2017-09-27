@@ -27,6 +27,7 @@ export PATH="/Applications/Postgres.app/Contents/Versions/9.6/bin:$PATH"
 
 # android bin
 export ANDROID_BIN="$HOME/Library/Android/sdk/tools/android"
+export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH="$HOME/Library/Android/sdk/tools:$PATH"
 export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 
